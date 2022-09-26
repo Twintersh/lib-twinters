@@ -6,11 +6,9 @@
 /*   By: twinters <twinters@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/21 02:50:23 by twinters          #+#    #+#             */
-/*   Updated: 2022/04/21 06:23:45 by twinters         ###   ########.fr       */
+/*   Updated: 2022/09/26 17:07:10 by twinters         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {

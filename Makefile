@@ -38,9 +38,8 @@ SRC = ft_isalpha.c \
 		get_next_line_utils.c \
 		ft_printf.c \
 		ft_putmore.c \
-		ft_putthings.c
-OBJ = $(SRC:.c=.o)
-SRCS_BONUS = ft_lstnew.c \
+		ft_putthings.c \
+		ft_lstnew.c \
 		ft_lstadd_front.c \
 		ft_lstsize.c \
 		ft_lstlast.c \
@@ -49,6 +48,7 @@ SRCS_BONUS = ft_lstnew.c \
 		ft_lstclear.c \
 		ft_lstmap.c \
 		ft_lstiter.c
+OBJ = $(SRC:.c=.o)
 OBJS_BONUS = $(SRCS_BONUS:.c=.o)
 CFLAGS = -Wextra -Werror -Wall
 
@@ -67,7 +67,3 @@ fclean : clean
 	rm -rf $(NAME)
 
 re : fclean all
-
-bonus : $(OBJS_BONUS)
-	ar -rc $(NAME) $(OBJS_BONUS)
-

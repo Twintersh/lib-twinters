@@ -6,11 +6,9 @@
 /*   By: twinters <twinters@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 11:03:05 by twinters          #+#    #+#             */
-/*   Updated: 2022/03/31 13:50:44 by twinters         ###   ########.fr       */
+/*   Updated: 2022/09/26 17:04:02 by twinters         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isprint(int c)
 {

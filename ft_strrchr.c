@@ -6,11 +6,9 @@
 /*   By: twinters <twinters@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/02 18:49:32 by twinters          #+#    #+#             */
-/*   Updated: 2022/04/04 12:35:09 by twinters         ###   ########.fr       */
+/*   Updated: 2022/09/26 17:08:50 by twinters         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {

@@ -6,7 +6,7 @@
 /*   By: twinters <twinters@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 11:41:04 by twinters          #+#    #+#             */
-/*   Updated: 2022/06/27 19:32:26 by twinters         ###   ########.fr       */
+/*   Updated: 2022/09/26 17:09:53 by twinters         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
 # endif
 
 # include <stdlib.h>
-# include <stdio.h>
 # include <string.h>
 # include <unistd.h>
 # include <stdarg.h>
